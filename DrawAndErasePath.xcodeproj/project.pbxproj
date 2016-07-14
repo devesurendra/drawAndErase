@@ -13,6 +13,7 @@
 		873EFDD51D379B0700C07A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873EFDD31D379B0700C07A1B /* Main.storyboard */; };
 		873EFDD71D379B0700C07A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873EFDD61D379B0700C07A1B /* Assets.xcassets */; };
 		873EFDDA1D379B0700C07A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873EFDD81D379B0700C07A1B /* LaunchScreen.storyboard */; };
+		873EFDE41D379B9800C07A1B /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 873EFDE31D379B9800C07A1B /* Canvas.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		873EFDD61D379B0700C07A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873EFDD91D379B0700C07A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873EFDDB1D379B0700C07A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873EFDE21D379B9800C07A1B /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		873EFDE31D379B9800C07A1B /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		873EFDC91D379B0700C07A1B /* DrawAndErasePath */ = {
 			isa = PBXGroup;
 			children = (
+				873EFDE11D379B7A00C07A1B /* Canvas */,
 				873EFDCD1D379B0700C07A1B /* AppDelegate.h */,
 				873EFDCE1D379B0700C07A1B /* AppDelegate.m */,
 				873EFDD01D379B0700C07A1B /* ViewController.h */,
@@ -77,6 +81,15 @@
 				873EFDCB1D379B0700C07A1B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873EFDE11D379B7A00C07A1B /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				873EFDE21D379B9800C07A1B /* Canvas.h */,
+				873EFDE31D379B9800C07A1B /* Canvas.m */,
+			);
+			name = Canvas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				873EFDD21D379B0700C07A1B /* ViewController.m in Sources */,
 				873EFDCF1D379B0700C07A1B /* AppDelegate.m in Sources */,
 				873EFDCC1D379B0700C07A1B /* main.m in Sources */,
+				873EFDE41D379B9800C07A1B /* Canvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
